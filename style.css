@@ -351,10 +351,6 @@ nav {
   gap: 15px;
 }
 
-.social-links a {
-  display: block;
-}
-
 .social-links img {
   width: 45px;
   height: 45px;
@@ -365,7 +361,7 @@ nav {
 }
 
 .social-links img:hover {
-  background-color: #e9ecef;
+  background-color: #bcd3e9;
 }
 
 /* FOOTER SECTION */
