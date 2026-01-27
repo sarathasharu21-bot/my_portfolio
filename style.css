@@ -24,10 +24,10 @@ nav {
   right: 0;
 }
 
- .nav-container {
+.nav-container {
   max-width: 1200px;
-  margin:auto;
-  padding:20px;
+  margin: auto;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -59,7 +59,6 @@ nav {
 }
 
 /* Home Section */
-
 .home-section {
   padding: 150px 20px 80px;
   background-color: #f8f9fa;
@@ -138,9 +137,7 @@ nav {
   border-radius: 10px;
 }
 
- 
-   /* SECTION TITLE  */
-  
+/* SECTION TITLE */
 .section-title {
   font-size: 36px;
   font-weight: 700;
@@ -149,9 +146,7 @@ nav {
   color: #333;
 }
 
-
-   /* ABOUT SECTION */
-
+/* ABOUT SECTION */
 .about-section {
   padding: 80px 20px;
   max-width: 1200px;
@@ -163,10 +158,6 @@ nav {
   align-items: center;
   gap: 60px;
   margin-bottom: 60px;
-}
-
-.about-block.reverse {
-  flex-direction: row-reverse;
 }
 
 .about-image {
@@ -197,22 +188,7 @@ nav {
   color: #666;
 }
 
-.about-text .highlight {
-  background-color: #f8f9fa;
-  padding: 15px 20px;
-  border-left: 4px solid #007bff;
-  font-weight: 500;
-  color: #333;
-}
-
-.about-text .italic {
-  font-style: italic;
-  color: #007bff;
-}
-
-
-   /* SKILLS SECTION */
- 
+/* SKILLS SECTION */
 .skills-section {
   padding: 80px 20px;
   background-color: #f8f9fa;
@@ -268,8 +244,7 @@ nav {
   border-radius: 20px;
 }
 
-   /* Project SECTION */
- 
+/* PROJECT SECTION */
 .portfolio-section {
   padding: 80px 20px;
   max-width: 1200px;
@@ -331,9 +306,7 @@ nav {
   background: linear-gradient(to right, #0056b3, #520dc2);
 }
 
-
-   /* CONTACT SECTION */
-
+/* CONTACT SECTION */
 .contact-section {
   padding: 80px 20px;
   background-color: #f8f9fa;
@@ -395,8 +368,7 @@ nav {
   background-color: #e9ecef;
 }
 
-   /* FOOTER SECTION  */
- 
+/* FOOTER SECTION */
 footer {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
   color: #fff;
