@@ -130,32 +130,12 @@ nav {
 }
 
 .home-image {
-  flex: 1;
   text-align: center;
 }
 
 .home-image img {
   max-width: 350px;
   border-radius: 10px;
-  margin: 0 auto;
-}
-
-.quote-section {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: #fff;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.quote-text {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.quote-subtitle {
-  font-size: 16px;
-  color: #ccc;
 }
 
  
