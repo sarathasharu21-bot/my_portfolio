@@ -77,7 +77,7 @@ nav {
   flex: 1;
 }
 
-.greeting {
+.Heading {
   font-size: 18px;
   color: #666;
   margin-bottom: 10px;
@@ -112,12 +112,10 @@ nav {
 
 .btn-primary {
   background: linear-gradient(to right, #007bff, #6610f2);
-  color: #fff;
 }
 
 .btn-primary:hover {
   background: linear-gradient(to right, #0056b3, #520dc2);
-  color: #fff;
 }
 
 .btn-secondary {
