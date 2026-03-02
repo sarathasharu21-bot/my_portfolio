@@ -62,6 +62,7 @@ nav {
 .home-section {
   padding: 150px 20px 80px;
   background-color: #f8f9fa;
+  height: 100vh;
 }
 
 .home-container {
@@ -149,14 +150,16 @@ nav {
 .about-section {
   padding: 80px 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  
 }
 
 .about-block {
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 60px;
-  margin-bottom: 60px;
+  margin-top: 100px;
+ 
 }
 
 .about-image {
@@ -195,11 +198,22 @@ nav {
 
 .skills-container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  margin-left: 170px
+
+
+}
+.foo{
   display: flex;
   gap: 40px;
 }
 
+.boo{
+  margin-top: 100px;
+}
 .skills-box {
   flex: 1;
   background-color: #fff;
