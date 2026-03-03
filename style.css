@@ -60,9 +60,10 @@ nav {
 
 /* Home Section */
 .home-section {
-  padding: 150px 20px 80px;
+  padding: 200px 20px 20px;
   background-color: #f8f9fa;
-  height: 100vh;
+  height:80vh;
+  
 }
 
 .home-container {
@@ -70,7 +71,7 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 160px;
 }
 
 .home-text {
@@ -99,7 +100,7 @@ nav {
 
 .buttons {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 
 .btn {
@@ -134,23 +135,28 @@ nav {
 
 .home-image img {
   max-width: 350px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 /* SECTION TITLE */
-.section-title {
+.section-title  {
+  
   font-size: 36px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 50px;
   color: #333;
+  padding-bottom: 60px;
 }
 
+
+
+
+
 /* ABOUT SECTION */
-.about-section {
+/* .about-section {
   padding: 80px 20px;
   max-width: 1200px;
-  margin: 0 auto;   /* center whole section */
+  margin: 0 auto;   
 }
 
 .section-title {
@@ -207,6 +213,7 @@ nav {
   gap: 40px;
   flex-direction: column;
   margin-left: 170px
+ 
 
 
 }
@@ -216,12 +223,12 @@ nav {
 }
 
 .boo{
-  margin-top: 100px;
+  margin:30px 
 }
 .skills-box {
   flex: 1;
   background-color: #fff;
-  padding: 30px;
+  padding: 50px;
   border-radius: 10px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
 }
@@ -231,6 +238,7 @@ nav {
   font-weight: 600;
   margin-bottom: 35px;
   color: #333;
+  justify-content: center;
 }
 
 .skill {
@@ -263,7 +271,7 @@ nav {
 
 /* PROJECT SECTION */
 .portfolio-section {
-  padding: 80px 20px;
+  padding: 20px 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -273,11 +281,16 @@ nav {
   gap: 40px;
 }
 
+.card  h3{
+  padding-bottom: 30px;
+}
+
 .project-card {
   flex: 1;
   background-color: #fff;
   border-radius: 10px;
   /* overflow: hidden; */
+  padding-bottom: 40px;
 
 }
 
@@ -296,6 +309,7 @@ nav {
   font-weight: 600;
   margin-bottom: 15px;
   color: #333;
+  
 }
 
 .project-info p {
@@ -321,6 +335,56 @@ nav {
 
 .project-links a:hover {
   background: linear-gradient(to right, #0056b3, #520dc2);
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+
+/*
+/* SKILLS */
+.skills {
+    padding: 40px 80px;
+    background-color: #f2f4f8;
+}
+.skills h2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 40px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0a1f44;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 /* CONTACT SECTION */
