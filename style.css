@@ -148,58 +148,6 @@ nav {
   padding-bottom: 60px;
 }
 
-
-
-
-
-/* ABOUT SECTION */
-/* .about-section {
-  padding: 80px 20px;
-  max-width: 1200px;
-  margin: 0 auto;   
-}
-
-.section-title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-.about-block {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 60px;
-}
-.about-image {
-  flex: 1;
-}
-
-.about-image img {
-  border-radius: 10px;
-  max-width: 400px;
-}
-
-.about-text {
-  flex: 1;
-}
-
-.about-text h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  background: linear-gradient(to right, #007bff, #6610f2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.about-text p {
-  margin-bottom: 15px;
-  color: #666;
-}
-
 /* SKILLS SECTION */
 .skills-section {
   padding: 80px 20px;
